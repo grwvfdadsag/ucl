@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+
+    
+    <h1><img src="./Heading 1.png" alt=""></h1>
+
+
+    
+     
+    <div class="filters">
+
+
+  <label>
+    <input type="text" id="nameFilter" placeholder="Search....">
+  </label>
+  <button onclick="filterByName()">Qidirish</button>
+</div>
+
+
+      <select id="genre" onchange="filterMovies()">
+        <option value="all">Janrlar</option>
+        <option value="drama">Drama</option>
+        <option value="komediya">Komediya</option>
+        <option value="triller">Triller</option>
+      </select>
+      <select id="year" onchange="filterMovies()">
+        <option value="all">Yil</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+      </select>
+      <select id="rating" onchange="filterMovies()">
+        <option value="all">Reyting</option>
+        <option value="8">8+</option>
+        <option value="7">7+</option>
+        <option value="6">6+</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="movie-list">
+    <div class="movie" data-genre="drama" data-year="2025" data-rating="8.5">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 1" />
+      <h3>Patton Oswalt:
+Annihilation</h3>
+      <p>Janr: Drama</p>
+      <p>Yil: 2025</p>
+      <p>Reyting: 8.5</p>
+    </div>
+    <div class="movie" data-genre="komediya" data-year="2024" data-rating="7.2">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 2" />
+      <h3> New York Doll</h3>
+      <p>Janr: Komediya</p>
+      <p>Yil: 2024</p>
+      <p>Reyting: 7.2</p>
+    </div>
+    <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Mickey's Magical
+Christmas</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>And Then I Go</h3>
+      <p>Janr: Drama</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>An Extremely Goofy
+Movie</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Komediya</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Drama</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Komediya</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Komediya</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+     <div class="movie" data-genre="triller" data-year="2023" data-rating="6.8">
+      <img src="https://cdn-icons-png.flaticon.com/512/73/73960.png" alt="Film 3" />
+      <h3>Peter Rabbit</h3>
+      <p>Janr: Triller</p>
+      <p>Yil: 2023</p>
+      <p>Reyting: 6.8</p>
+    </div>
+  
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

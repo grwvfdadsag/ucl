@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.filters {
+  margin-top: 10px;
+}
+
+.filters select {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 5px;
+}
